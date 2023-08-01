@@ -1,44 +1,63 @@
-*{
-    margin: 0;
-    padding: 0;
+/* Element Selector */
+h1{
+    color: blue;
     text-align: center;
 }
+
 div{
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    border: 2px solid black;
-}
- #container{
-    height: 200px;
-    width: 800px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    
-} 
-#vbox1{
     background-color: aqua;
-
 }
-#vbox2{
-    background-color: rgb(113, 228, 122);
-    /* position: relative; 
-    bottom: 100px; */
-}
-#vbox3{
-    background-color: rgb(85, 91, 208);
-    /* position: relative;
-    top: 100px; */
-}
-#vbox4{
-    background-color: rgb(220, 79, 204);
-}
-#vbox5{
-    background-color: rgb(220, 238, 84);
-}
-h1{
-    margin: 50px;
+/* here we use id Selector */
+#secondHeading{
+   color: blueviolet;
 }
 
+/* here we use class Selector */
+.classId{
+    color:brown;
+}
+
+
+.classId2{
+    color:red;
+}
+
+button{
+    background-color: green;
+}
+
+p{
+    color: white;
+    font-family: Arial;
+}
+
+/* Absolute unit:- font size  */
+#one{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Times New Roman';
+    text-transform: ;
+}
+#two{
+    font-size: 35px;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+#three{
+    font-size: 25px;
+    text-align: center;
+    font-family:Helvetica;
+}
+
+#h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+#outer{
+    font-size: 25px;
+}
+
+#inner{
+    font-size: 10px;
+}
