@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+ #container{
+    height: 200px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+} 
+#vbox1{
+    background-color: aqua;
+
+}
+#vbox2{
+    background-color: rgb(113, 228, 122);
+    /* position: relative; 
+    bottom: 100px; */
+}
+#vbox3{
+    background-color: rgb(85, 91, 208);
+    /* position: relative;
+    top: 100px; */
+}
+#vbox4{
+    background-color: rgb(220, 79, 204);
+}
+#vbox5{
+    background-color: rgb(220, 238, 84);
+}
+h1{
+    margin: 50px;
+}
+
